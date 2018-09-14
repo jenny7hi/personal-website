@@ -1,0 +1,301 @@
+body {
+    background-color: #feffff;
+}
+
+h1 {
+    font-family:"Big John";
+    text-transform: uppercase;
+    font-size:3.5rem;
+    color: #8bc1dc;
+}
+
+h2 {
+    font-family: "Gill Sans MT Pro Medium";
+    font-size:1.75rem;
+    color: #1d334b;
+}
+
+h3 {
+    font-family:"Calibri Light";
+    font-size:2.5rem;
+    margin: 0.5rem 0;
+    font-weight: normal;
+    color: #1d334b;
+}
+
+p {
+    font-family:"calibri light";
+    text-align:justify;
+    color: #1d334b;
+    letter-spacing:0.25px;
+}
+
+a:link {
+    color: #8bc1dc;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #8bc1dc;
+}
+
+a:hover {
+    color: #bde0f7;
+}
+
+hr {
+    background: #b4b4b4;
+    color: #b4b4b4;
+    border:none;
+    height:0.75px;
+}
+
+.blue {
+    color: #8bc1dc;
+}
+
+#site-header {
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    position: fixed;
+}
+
+.site-nav a {
+    text-decoration:none;
+}
+
+.site-nav a:link {
+    color: #1d334b;
+}
+
+.site-nav a:visited {
+    color: #1d334b;
+}
+
+.site-nav a:hover {
+    color: #8bc1dc;
+}
+
+.site-nav h2 {
+    margin: 0.75rem 0 1rem;
+}
+
+.site-nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+}
+
+.menu {
+    display: inline-block;
+    letter-spacing: 0.15rem;
+}
+
+.menu-item {
+    font-family:"Gill Sans MT Pro Light";
+    margin-left:1rem;
+    font-size:0.9rem;
+}
+
+.container {
+    width: 90%;
+    margin: 5rem auto auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.content {
+    width:85%;
+    max-width: 1080px;
+    margin:auto;
+    opacity:0;
+}
+
+.hello {
+    float:left;
+    width:45%;
+    padding-right:1rem;
+    min-width:200px;
+    max-width:334px;
+    position:relative;
+}
+
+#about-intro {
+    overflow:hidden;
+    padding-bottom:4rem;
+
+}
+
+#intro-text {
+    margin-top:7.5rem;
+    font-size:1.25rem;
+    line-height: 1.1;
+}
+
+#propic {
+    width:auto;
+    max-width:100%;
+    border-radius:50%;
+    transform: scaleX(-1);
+}
+
+.about-heading {
+    position:absolute;
+    top:3%;
+    left:73%;
+    float:left;
+    mix-blend-mode:multiply;
+}
+
+#about-contact {
+    display:flex;
+    max-width:350px;
+}
+
+.contact-item {
+    margin-right:auto;
+}
+
+.footer {
+    width: 90%;
+    margin: auto;
+}
+
+.footer p{
+    color: #b4b4b4;
+    text-align: center;
+    font-size:0.8rem;
+    padding-top:0.5rem;
+    padding-bottom:1.5rem;
+}
+
+#home-intro {
+    height: calc(100vh - 10.5rem);
+    min-height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    padding-bottom:5rem;
+}
+
+#home-intro p {
+    font-size:1.7rem;
+    line-height:1.1;
+    text-align: left;
+}
+
+#home-contact {
+    display:flex;
+    width:100%;
+    max-width:400px;
+    margin-right:0;
+    margin-left:auto;
+}
+
+#home-contact p {
+    font-size:1.35rem;
+}
+
+#home-contact .contact-item {
+    margin-left:auto;
+    margin-right:0;
+}
+
+#work {
+    margin:3rem auto;
+    padding-bottom:12rem;
+}
+
+.item {
+    padding:1rem;
+    width:45%;
+    position:relative;
+    display:inline-block;
+}
+
+.item p {
+    margin:0;
+}
+
+.item-img-odd, .item-img-even {
+    width:50%;
+}
+
+.item-img-even {
+    float:right;
+}
+
+.item-img-odd img, .item-img-even img{
+    width:auto;
+    max-width:100%;
+    border-radius:50%;
+}
+
+.item-text-odd {
+    position:absolute;
+    top:15%;
+    left:48%;
+}
+
+.item-text-even {
+    position:absolute;
+    top:60%;
+    right: 48%;
+}
+
+.item-text-even p {
+    text-align:right;
+}
+
+.item-text-heading-odd  {
+    font-family:"Gill Sans MT Pro Medium";
+    font-size: 1.5rem;
+    padding-left:0;
+    letter-spacing:0.05em;
+}
+
+.item-text-heading-even  {
+    font-family:"Gill Sans MT Pro Medium";
+    font-size: 1.5rem;
+    padding-right:1.5rem;
+    letter-spacing: 0.05em;
+}
+
+.item-text-description-odd {
+    padding-left:1rem;
+}
+
+.item-text-description-even {
+    padding-right:1rem;
+}
+
+.item-text-details-odd {
+    padding-left:1.5rem;
+}
+
+.item-text-details-even {
+    padding-right:0;
+}
+
+#item-1 {
+    transform:translate(0, 0);
+}
+
+#item-2 {
+    transform:translate(0, 6rem);
+}
+
+#item-3 {
+    transform:translate(0, 4rem);
+}
+
+#item-4 {
+    transform:translate(0, 10rem);
+}
+
+#item-5 {
+    transform:translate(0, 8rem);
+}
