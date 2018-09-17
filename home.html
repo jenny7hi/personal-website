@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link href="logo.png" rel="icon">
+    <link href="media/images/logo.png" rel="icon">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="script.js"></script>
@@ -39,52 +39,62 @@
     <div id="work" class="content">
         <div class="item" id="item-1" data-aos="fade-in">
             <div class="item-img-odd">
-                <img src="media/images/amazon.png">
+                <figure class="tint" onclick="openPopup('popup-1')">
+                    <img src="media/images/amazon.png">
+                </figure>
             </div>
             <div class="item-text-odd">
                 <p class="item-text-heading-odd"><b class="blue"><nobr>Amazon</nobr></b></p>
                 <p class="item-text-description-odd"><nobr>Software Development Engineer Intern (Future Engineer Program)</nobr></p>
-                <p class="item-text-details-odd"><nobr>Java, Spring, React/Redux, HTML/CSS</nobr></p>
+                <p class="item-text-details-odd"><nobr><i>Java, Spring, React/Redux, HTML/CSS</i></nobr></p>
             </div>
         </div>
         <div class="item" id="item-2" data-aos="fade-in" data-aos-delay="250">
             <div class="item-img-even">
-                <img src="media/images/tinker.png">
+                <figure class="tint"  onclick="openPopup('popup-2')">
+                    <img src="media/images/tinker.png">
+                </figure>
             </div>
             <div class="item-text-even">
                 <p class="item-text-heading-even"><b class="blue"><nobr>Tinker</nobr></b></p>
                 <p class="item-text-description-even"><nobr>Alexa skill that allows vocal interaction with microcontrollers</nobr></p>
-                <p class="item-text-details-even"><nobr>Alexa Skills Kit, AWS Lambda</nobr></p>
+                <p class="item-text-details-even"><nobr><i>Alexa Skills Kit, AWS Lambda</i></nobr></p>
             </div>
         </div>
         <div class="item" id="item-3" data-aos="fade-in">
             <div class="item-img-odd">
-                <img src="media/images/enroute.png">
+                <figure class="tint"  onclick="openPopup('popup-3')">
+                    <img src="media/images/enroute.png">
+                </figure>
             </div>
             <div class="item-text-odd">
                 <p class="item-text-heading-odd"><b class="blue"><nobr>Enroute</nobr></b></p>
                 <p class="item-text-description-odd"><nobr>social service web app for inspiring diverse project teams</nobr></p>
-                <p class="item-text-details-odd"><nobr>HTML/CSS, Angular</nobr></p>
+                <p class="item-text-details-odd"><nobr><i>HTML/CSS, Angular</i></nobr></p>
             </div>
         </div>
         <div class="item" id="item-4" data-aos="fade-in" data-aos-delay="250">
             <div class="item-img-even">
-                <img src="media/images/107e.gif">
+                <figure class="tint"  onclick="openPopup('popup-4')">
+                    <img src="media/images/107e.gif">
+                </figure>
             </div>
             <div class="item-text-even">
                 <p class="item-text-heading-even"><b class="blue"><nobr>Interactive Light Show</nobr></b></p>
                 <p class="item-text-description-even"><nobr>keyboard-controllable scrolling light show text display</nobr></p>
-                <p class="item-text-details-even"><nobr>C, Raspberry Pi</nobr></p>
+                <p class="item-text-details-even"><nobr><i>C, Raspberry Pi</i></nobr></p>
             </div>
         </div>
         <div class="item" id="item-5" data-aos="fade-in">
             <div class="item-img-odd">
-                <img src="media/images/zuki.png">
+                <figure class="tint"  onclick="openPopup('popup-5')">
+                    <img src="media/images/zuki.png">
+                </figure>
             </div>
             <div class="item-text-odd">
                 <p class="item-text-heading-odd"><b class="blue"><nobr>Who is Zuki?</nobr></b></p>
                 <p class="item-text-description-odd"><nobr>narrative based habit-tracking Android app</nobr></p>
-                <p class="item-text-details-odd"><nobr>Android</nobr></p>
+                <p class="item-text-details-odd"><nobr><i>Android</i></nobr></p>
             </div>
         </div>
     </div>
@@ -92,6 +102,37 @@
 <div class="footer">
     <hr/>
     <p>&copy; Jenny Zhi. 2018.</p>
+</div>
+
+<div id="popup-1" class="popup">
+    <div class="popup-content animated fadeInUp fast">
+        <span class="close" onclick="closePopup('popup-1')">&times;</span>
+        <p>Some text in the Modal..</p>
+    </div>
+</div>
+<div id="popup-2" class="popup">
+    <div class="popup-content animated fadeInUp fast">
+        <span class="close" onclick="closePopup('popup-2')">&times;</span>
+        <p>Some text in the Modal..</p>
+    </div>
+</div>
+<div id="popup-3" class="popup">
+    <div class="popup-content animated fadeInUp fast">
+        <span class="close" onclick="closePopup('popup-3')">&times;</span>
+        <p>Some text in the Modal..</p>
+    </div>
+</div>
+<div id="popup-4" class="popup">
+    <div class="popup-content animated fadeInUp fast">
+        <span class="close" onclick="closePopup('popup-4')">&times;</span>
+        <p>Some text in the Modal..</p>
+    </div>
+</div>
+<div id="popup-5" class="popup">
+    <div class="popup-content animated fadeInUp fast">
+        <span class="close" onclick="closePopup('popup-5')">&times;</span>
+        <p>Some text in the Modal..</p>
+    </div>
 </div>
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

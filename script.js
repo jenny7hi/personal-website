@@ -37,4 +37,13 @@ $(document).ready(function(){
         }
         prevMousePos = currentMousePos;
     });
+
 });
+
+function openPopup(popup) {
+    document.getElementById(popup).style.display = "block";
+}
+
+function closePopup(popup) {
+    document.getElementById(popup).style.display = "none";
+}
