@@ -2,8 +2,13 @@ body {
     background-color: #feffff;
 }
 
+@font-face {
+    font-family: "Big John";
+    src: url('media/fonts/BIG JOHN.otf');
+}
+
 h1 {
-    font-family:"Big John";
+    font-family:"Big John", sans-serif;
     text-transform: uppercase;
     font-size:3.5rem;
     color: #8bc1dc;
@@ -16,18 +21,18 @@ h2 {
 }
 
 h3 {
-    font-family:"Calibri Light";
+    font-family:"Heebo", sans-serif;
     font-size:2.5rem;
     margin: 0.5rem 0;
-    font-weight: normal;
+    font-weight: 300;
     color: #1d334b;
 }
 
 p {
-    font-family:"calibri light";
+    font-family:"Heebo", sans-serif;
     text-align:justify;
     color: #1d334b;
-    letter-spacing:0.25px;
+    font-weight:300;
 }
 
 a:link {
@@ -131,8 +136,9 @@ hr {
 
 #intro-text {
     margin-top:7.5rem;
-    font-size:1.25rem;
-    line-height: 1.1;
+    font-size:1rem;
+    line-height: 1.3;
+    letter-spacing:0.05rem;
 }
 
 #propic {
@@ -179,11 +185,12 @@ hr {
     flex-direction:column;
     justify-content:center;
     padding-bottom:5rem;
+    letter-spacing:0.05rem;
 }
 
 #home-intro p {
-    font-size:1.7rem;
-    line-height:1.1;
+    font-size:1.4rem;
+    line-height:1.3;
     text-align: left;
 }
 
@@ -196,7 +203,7 @@ hr {
 }
 
 #home-contact p {
-    font-size:1.35rem;
+    font-size:1.25rem;
 }
 
 #home-contact .contact-item {
@@ -251,33 +258,39 @@ hr {
 }
 
 .item-text-heading-odd  {
-    font-family:"Gill Sans MT Pro Medium";
-    font-size: 1.5rem;
+    font-weight: 400;
+    font-size: 1.15rem;
     padding-left:0;
-    letter-spacing:0.05em;
+    letter-spacing:0.02rem;
+    line-height:1.4rem;
 }
 
 .item-text-heading-even  {
-    font-family:"Gill Sans MT Pro Medium";
-    font-size: 1.5rem;
+    font-weight: 400;
+    font-size: 1.15rem;
     padding-right:1.5rem;
-    letter-spacing: 0.05em;
+    letter-spacing:0.02rem;
+    line-height:1.4rem;
 }
 
 .item-text-description-odd {
     padding-left:1rem;
+    font-size: 0.9rem;
 }
 
 .item-text-description-even {
     padding-right:1rem;
+    font-size: 0.9rem;
 }
 
 .item-text-details-odd {
     padding-left:1.5rem;
+    font-size: 0.9rem;
 }
 
 .item-text-details-even {
     padding-right:0;
+    font-size: 0.9rem;
 }
 
 #item-1 {
