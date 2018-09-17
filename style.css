@@ -61,7 +61,7 @@ hr {
 
 #site-header {
     top: 0;
-    z-index: 100;
+    z-index: 1;
     width: 100%;
     position: fixed;
 }
@@ -343,7 +343,7 @@ figure {
 .popup {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 2; /* Sit on top */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -353,11 +353,16 @@ figure {
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-.popup-content {
+.popup-box {
     background-color: #feffff;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
+    margin: 3rem auto; /* 15% from the top and centered */
+    padding: 2rem;
     width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.popup-content {
+    width: 80%;
+    margin: 4rem auto;
 }
 
 .close {
