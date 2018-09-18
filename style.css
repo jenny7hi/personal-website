@@ -28,6 +28,14 @@ h3 {
     color: #1d334b;
 }
 
+h4 {
+    font-family:"Heebo", sans-serif;
+    font-size:1.5rem;
+    color: #8bc1dc;
+    line-height:2rem;
+    margin: 0;
+}
+
 p {
     font-family:"Heebo", sans-serif;
     text-align:justify;
@@ -57,6 +65,14 @@ hr {
 
 .blue {
     color: #8bc1dc;
+}
+
+.gray {
+    color: #b4b4b4;
+}
+
+.nobr {
+    white-space: nowrap;
 }
 
 #site-header {
@@ -107,7 +123,7 @@ hr {
 
 .container {
     width: 90%;
-    margin: 5rem auto auto;
+    margin: 3.5rem auto auto;
     position: relative;
     overflow: hidden;
 }
@@ -135,10 +151,11 @@ hr {
 }
 
 #intro-text {
-    margin-top:7.5rem;
+    margin-top:7.75rem;
     font-size:1rem;
     line-height: 1.3;
     letter-spacing:0.05rem;
+    margin-left: 0.25rem;
 }
 
 #propic {
@@ -179,8 +196,8 @@ hr {
 }
 
 #home-intro {
-    height: calc(100vh - 10.5rem);
-    min-height: 100%;
+    height: calc(100vh - 9rem);
+    min-height: 450px;
     display: flex;
     flex-direction:column;
     justify-content:center;
@@ -377,4 +394,204 @@ figure {
     color: #8bc1dc;
     text-decoration: none;
     cursor: pointer;
+}
+
+/*medium*/
+@media (max-width: 1160px) {
+    #propic {
+        position: relative;
+        top:2.5rem;
+    }
+
+    .about-heading {
+        top:-2.5rem;
+        left:0;
+    }
+
+    #intro-text {
+        margin-top:2rem;
+        margin-left: 1rem;
+    }
+
+    #work {
+        max-width: 650px;
+    }
+
+    .item {
+        padding:1rem;
+        width:50%;
+        position:relative;
+        display:inline-block;
+    }
+
+    .item-img-even {
+        float:none;
+    }
+
+    .item-text-even {
+        position:absolute;
+        top:12%;
+        left:48%;
+    }
+
+    .item-text-even p {
+        text-align:left;
+    }
+
+    .item-text-heading-even  {
+        font-weight: 400;
+        font-size: 1.15rem;
+        padding-left:0;
+        letter-spacing:0.02rem;
+        line-height:1.4rem;
+    }
+
+    .item-text-description-even {
+        padding-left:1rem;
+        font-size: 0.9rem;
+    }
+
+    .item-text-details-even {
+        padding-left:1.5rem;
+        font-size: 0.9rem;
+    }
+
+    #item-1 {
+        transform:translate(0, 0);
+    }
+
+    #item-2 {
+        transform:translate(0, 0);
+    }
+
+    #item-3 {
+        transform:translate(0, 0);
+    }
+
+    #item-4 {
+        transform:translate(0, 0);
+    }
+
+    #item-5 {
+        transform: translate(0, 0);
+    }
+}
+
+/*small*/
+@media (max-width: 762px) {
+    .hello {
+        width: 100%;
+        max-width:100%;
+        float:none;
+        padding-right:0;
+    }
+
+    #propic {
+        display: block;
+        width: 75%;
+        max-width: 334px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #about-intro {
+        margin-top: 2rem;
+    }
+
+    .about-heading {
+        top:-10%;
+        left:2%;
+        mix-blend-mode: multiply;
+        font-size: 2.75rem;
+    }
+
+    #intro-text p {
+        text-align: left;
+    }
+
+    #home-intro {
+        padding-top: 2rem;
+    }
+
+    #work {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item {
+        width: 75%;
+        margin-left:auto;
+        margin-right:auto;
+        display: flex;
+        flex-direction:column;
+    }
+
+    .item-img-odd, .item-img-even {
+        width:auto;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .item-img-even {
+        float:none;
+    }
+
+    .item-img-odd img, .item-img-even img{
+        max-width:200px;
+    }
+
+    .item-text-odd, .item-text-even {
+        position: unset;
+        margin-top: 0.5rem;
+    }
+
+    .item-text-odd p, .item-text-even p{
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .nobr {
+        white-space: normal;
+    }
+
+    .item-text-heading-odd  {
+        font-weight: 400;
+        font-size: 1.15rem;
+        text-align: center;
+        letter-spacing:0.02rem;
+        line-height:1.4rem;
+    }
+
+    .item-text-heading-even  {
+        font-weight: 400;
+        font-size: 1.15rem;
+        text-align: center;
+        letter-spacing:0.02rem;
+        line-height:1.4rem;
+    }
+
+    .item-text-description-odd, .item-text-description-even, .item-text-details-odd, .item-text-details-even {
+        font-size: 0.9rem;
+    }
+}
+
+/*x-small*/
+@media (max-width: 450px) {
+    #home-intro {
+        height: 500%;
+        padding-top:3rem;
+    }
+
+    #about-contact, #home-contact{
+        margin-top: 2.5rem;
+        display: block;
+        max-width: 100%;
+    }
+
+    #about-contact, #home-contact p {
+        text-align: right;
+        line-height: 0.5rem;
+    }
 }
