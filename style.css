@@ -11,7 +11,7 @@ h1 {
     font-family:"Big John", sans-serif;
     text-transform: uppercase;
     font-size:3.5rem;
-    color: #8bc1dc;
+    color: #8cc3e1;
 }
 
 h2 {
@@ -31,7 +31,7 @@ h3 {
 h4 {
     font-family:"Heebo", sans-serif;
     font-size:1.5rem;
-    color: #8bc1dc;
+    color: #8cc3e1;
     line-height:2rem;
     margin: 0;
 }
@@ -44,16 +44,16 @@ p {
 }
 
 a:link {
-    color: #8bc1dc;
+    color: #8cc3e1;
     text-decoration: none;
 }
 
 a:visited {
-    color: #8bc1dc;
+    color: #8cc3e1;
 }
 
 a:hover {
-    color: #bde0f7;
+    color: #b9dcf5;
 }
 
 hr {
@@ -64,7 +64,7 @@ hr {
 }
 
 .blue {
-    color: #8bc1dc;
+    color: #8cc3e1;
 }
 
 .gray {
@@ -95,7 +95,7 @@ hr {
 }
 
 .site-nav a:hover {
-    color: #8bc1dc;
+    color: #8cc3e1;
 }
 
 .site-nav h2 {
@@ -348,7 +348,7 @@ figure {
     bottom: 0.25rem;
     left: 0;
     right: 0;
-    background: rgba(217, 232, 235, 0.5);
+    background: rgba(221, 230, 235, 0.5);
     transition: all .3s linear;
     border-radius:50%;
 }
@@ -391,7 +391,7 @@ figure {
 
 .close:hover,
 .close:focus {
-    color: #8bc1dc;
+    color: #8cc3e1;
     text-decoration: none;
     cursor: pointer;
 }
