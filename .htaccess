@@ -1,2 +1,2 @@
 RewriteEngine On    # Turn on the rewriting engine
-RewriteRule     ^/(about)/?$      about.html      [NC,L]      # Handle requests for "about"
+RewriteRule     ^/about/?$      about.html      [NC,L]      # Handle requests for "about"
