@@ -126,7 +126,6 @@ hr {
     margin: 3.5rem auto auto;
     position: relative;
     overflow: hidden;
-    scroll-behavior: smooth;
 }
 
 .content {
