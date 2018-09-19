@@ -594,4 +594,8 @@ figure {
         text-align: right;
         line-height: 0.5rem;
     }
+
+    .popup-content div p {
+        text-align: left;
+    }
 }
