@@ -15,12 +15,6 @@ $(document).ready(function(){
         prevScrollPos = currentScrollPos;
     });
 
-    $("#work-link").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#work").offset().top
-        }, 750);
-    });
-
     var prevMousePos = 0;
     $(window).mousemove( function(event) {
         var currentMousePos = event.pageY;
@@ -36,6 +30,12 @@ $(document).ready(function(){
             $header.removeClass('animated slideInDown').addClass('animated slideOutUp');
         }
         prevMousePos = currentMousePos;
+    });
+
+    $("#work-link").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#work").offset().top
+        }, 750);
     });
 
 });
