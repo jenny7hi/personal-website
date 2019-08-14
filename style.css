@@ -330,6 +330,14 @@ hr {
     transform:translate(0, 8rem);
 }
 
+#item-6 {
+    transform:translate(0, 14rem);
+}
+
+#item-7 {
+    transform:translate(0, 12rem);
+}
+
 figure {
     margin:0;
 }
@@ -454,26 +462,6 @@ figure {
     .item-text-details-even {
         padding-left:1.5rem;
         font-size: 0.9rem;
-    }
-
-    #item-1 {
-        transform:translate(0, 0);
-    }
-
-    #item-2 {
-        transform:translate(0, 0);
-    }
-
-    #item-3 {
-        transform:translate(0, 0);
-    }
-
-    #item-4 {
-        transform:translate(0, 0);
-    }
-
-    #item-5 {
-        transform: translate(0, 0);
     }
 }
 
